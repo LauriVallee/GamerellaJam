@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 953092120}
   - component: {fileID: 953092119}
   m_Layer: 5
-  m_Name: Button (Legacy) (2)
+  m_Name: ButtonKitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -516,7 +516,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 953092120}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1919920583}
+        m_TargetAssemblyTypeName: SceneManageScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Kitchen
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &953092120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,7 +580,7 @@ GameObject:
   - component: {fileID: 965079369}
   - component: {fileID: 965079368}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: ButtonBathroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -637,7 +649,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 965079369}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1919920583}
+        m_TargetAssemblyTypeName: SceneManageScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Bathroom
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &965079369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,7 +713,7 @@ GameObject:
   - component: {fileID: 1093849038}
   - component: {fileID: 1093849037}
   m_Layer: 5
-  m_Name: Button (Legacy) (3)
+  m_Name: ButtonLivingroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -758,7 +782,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1093849038}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1919920583}
+        m_TargetAssemblyTypeName: SceneManageScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Livingroom
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1093849038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,7 +846,7 @@ GameObject:
   - component: {fileID: 1118046749}
   - component: {fileID: 1118046748}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: ButtonBedroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -882,7 +918,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1919920583}
         m_TargetAssemblyTypeName: SceneManageScript, Assembly-CSharp
-        m_MethodName: Load
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
