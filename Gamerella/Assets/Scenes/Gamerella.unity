@@ -1257,6 +1257,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.78000015, y: 0.5, z: 0.365}
   m_Center: {x: -0.0000008642676, y: 0.00000020861631, z: 0.0050428435}
+--- !u!1 &139043521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 139043522}
+  m_Layer: 0
+  m_Name: MusiquePuzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &139043522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139043521}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.208331, y: 1.8160424, z: 1.0370609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &139968793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2889,8 +2920,8 @@ Transform:
   m_GameObject: {fileID: 316128312}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36, y: 0.706, z: 1.537}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.98, y: 0.706, z: 0.88}
+  m_LocalScale: {x: 1, y: 1, z: 6.3651}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5598,6 +5629,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 126049161578ef74b8a8785dc3e5332c, type: 3}
   m_PrefabInstance: {fileID: 822221310}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &834614254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 834614255}
+  m_Layer: 0
+  m_Name: MusiqueEnfant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &834614255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834614254}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.208331, y: 1.8160424, z: 1.0370609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &844277176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11188,6 +11250,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fcb2d57426cd14c4eb49be31c1a9a538, type: 3}
   m_PrefabInstance: {fileID: 2029466612}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2030578075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2030578076}
+  m_Layer: 0
+  m_Name: MusiqueGrown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2030578076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030578075}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.208331, y: 1.8160424, z: 1.0370609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2037518575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11659,3 +11752,6 @@ SceneRoots:
   - {fileID: 1333170023}
   - {fileID: 420426663}
   - {fileID: 316128316}
+  - {fileID: 834614255}
+  - {fileID: 2030578076}
+  - {fileID: 139043522}
