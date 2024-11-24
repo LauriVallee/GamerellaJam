@@ -10,14 +10,13 @@ public class PuzzlePop : MonoBehaviour
     public GameObject CanvaPuzzle;
     public AudioSource MusiqueEnfant;
     public AudioSource MusiquePuzzle;
-    public AudioSource MusiqueAdulte;
+
     
     
     // Start is called before the first frame update
     void Start()
     {
         CanvaPuzzle.SetActive(false);
-        puzzleUp = false;
     }
 
     // Update is called once per frame
@@ -30,8 +29,8 @@ public class PuzzlePop : MonoBehaviour
     {
         CanvaPuzzle.SetActive(true);
         puzzleUp = true;
-        MusiqueEnfant.Stop();
-        MusiqueAdulte.Play();
+        MusiqueEnfant.Pause();
+        MusiquePuzzle.Play();
 
-}
+    }
 }
