@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     private Vector3    emptyPosition;
     private int emptyLocation;
     private int size;
-
+    public GameObject puzzle;
     private void CreateGamePieces(float gapThickness)
     {
         Random.InitState(1337);
@@ -113,6 +113,8 @@ public class GameManager : MonoBehaviour
         if(checkWonPuzzle && wonPuzzle())
         {
             Debug.Log("WOOOO WE WON!!!");
+            PuzzlePop.puzzleUp = false;
+            puzzle.SetActive(false);
         }
     }
 

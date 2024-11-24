@@ -1299,7 +1299,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 289879cf68f1b3c4786a0a0a52c10ea7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0173a332f3b9d924692ad987c5ab8827, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2984,7 +2984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvaPuzzle: {fileID: 715212565}
-  MusiqueEnfant: {fileID: 139043523}
+  MusiqueEnfant: {fileID: 834614256}
   MusiquePuzzle: {fileID: 139043523}
 --- !u!65 &316128315
 BoxCollider:
@@ -3456,7 +3456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 393083471}
   speed: 5
-  CanvaPuzzle: {fileID: 0}
+  CanvaPuzzle: {fileID: 715212565}
 --- !u!143 &393083471
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3716,6 +3716,7 @@ MonoBehaviour:
   - {fileID: 1635375712, guid: 95eb21df5e8b155458ab02325bfe3dc5, type: 3}
   - {fileID: 2009295135, guid: 95eb21df5e8b155458ab02325bfe3dc5, type: 3}
   - {fileID: 2005366466, guid: 95eb21df5e8b155458ab02325bfe3dc5, type: 3}
+  puzzle: {fileID: 715212565}
 --- !u!4 &420426663
 Transform:
   m_ObjectHideFlags: 0
@@ -5243,7 +5244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772bb3f1b9dd6414d901008a2a93357b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvaPuzzle: {fileID: 0}
+  CanvaPuzzle: {fileID: 715212565}
   mouseSensitivity: 200
   playerBody: {fileID: 393083468}
 --- !u!81 &732589592
@@ -5767,8 +5768,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e743810f0dcd91d4ea6ecd43ffb0f60b, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 26da5b96c5576bf42af47c256767399a, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
