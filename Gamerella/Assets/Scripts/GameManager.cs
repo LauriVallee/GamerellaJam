@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
     private int emptyLocation;
     private int size;
     public GameObject puzzle;
+    public GameObject trigger;
+
+    public AudioSource MusiqueEnfant;
+    public AudioSource MusiquePuzzle;
     private void CreateGamePieces(float gapThickness)
     {
         Random.InitState(1337);
@@ -115,7 +119,13 @@ public class GameManager : MonoBehaviour
             Debug.Log("WOOOO WE WON!!!");
             PuzzlePop.puzzleUp = false;
             puzzle.SetActive(false);
+            trigger.IsDestroyed();
+            MusiqueEnfant.Play();
+            MusiquePuzzle.Stop();
         }
+
+        
+
     }
 
     public bool wonPuzzle()
